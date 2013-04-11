@@ -14,26 +14,6 @@
         android:src="@drawable/dhdlogo" />
 
     <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ibWifi"
-        android:layout_alignBaseline="@+id/textView2"
-        android:layout_alignBottom="@+id/textView2"
-       android:layout_alignParentRight="true"
-        android:text="WI-FI"
-        android:textColor="#ffffff" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ibBluetooth"
-        android:layout_alignParentLeft="true"
-        android:text="BLUETOOTH"
-        android:textColor="#ffffff" />
-
-    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,23 +22,6 @@
         android:gravity="center_horizontal"
         android:text="Choose the type of connexion that you would like to use"
         android:textColor="#ffffff" />
-
-    <ImageButton
-        android:id="@+id/ibBluetooth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/custom" />
-
-    <ImageButton
-        android:id="@+id/ibWifi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/ibBluetooth"
-        android:background="@drawable/wifistateuno"
-        android:clickable="FALSE" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,5 +32,22 @@
         android:gravity="center_horizontal"
         android:text="The WI-FI option hasn&apos;t been implemented yet.In order to avoid confusion and to keep the application running, we have decided to disable the button for now."
         android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/ibBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="126dp"
+        android:background="@drawable/btoothdpi" />
+
+    <ImageButton
+        android:id="@+id/ibWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibBluetooth"
+        android:layout_alignLeft="@+id/ibBluetooth"
+        android:background="@drawable/wifidpi"
+        android:clickable="FALSE" />
 
 </RelativeLayout>

@@ -21,32 +21,27 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int bluetoothstatedos=0x7f020000;
-        public static final int bluetoothstateuno=0x7f020001;
-        public static final int custom=0x7f020002;
-        public static final int dhdlogo=0x7f020003;
-        public static final int hermeslogo=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int wifistatedos=0x7f020006;
-        public static final int wifistateuno=0x7f020007;
+        public static final int btoothdpi=0x7f020000;
+        public static final int dhdlogo=0x7f020001;
+        public static final int hermeslogo=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int wifidpi=0x7f020004;
     }
     public static final class id {
-        public static final int TextView01=0x7f09000b;
-        public static final int action_settings=0x7f090011;
+        public static final int action_settings=0x7f09000f;
         public static final int button_scan=0x7f090006;
         public static final int button_send=0x7f090009;
-        public static final int discoverable=0x7f090013;
+        public static final int discoverable=0x7f090011;
         public static final int edit_text_out=0x7f090008;
-        public static final int ibBluetooth=0x7f09000e;
-        public static final int ibWifi=0x7f09000c;
+        public static final int ibBluetooth=0x7f09000d;
+        public static final int ibWifi=0x7f09000e;
         public static final int imageView1=0x7f09000a;
         public static final int in=0x7f090007;
         public static final int new_devices=0x7f090005;
         public static final int paired_devices=0x7f090003;
-        public static final int scan=0x7f090012;
-        public static final int textView1=0x7f09000f;
-        public static final int textView2=0x7f09000d;
-        public static final int textView3=0x7f090010;
+        public static final int scan=0x7f090010;
+        public static final int textView1=0x7f09000b;
+        public static final int textView3=0x7f09000c;
         public static final int title_left_text=0x7f090000;
         public static final int title_new_devices=0x7f090004;
         public static final int title_paired_devices=0x7f090002;
